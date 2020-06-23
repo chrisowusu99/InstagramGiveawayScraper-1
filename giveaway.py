@@ -48,7 +48,7 @@ class Giveaway:
         comments_list, users_list = [], []
         for comment in comments:
             ig_comment = comment.find_element_by_css_selector('span').get_attribute('textContent')
-            ig_user = comment.find_element_by_class_name('TlrDj').get_attribute('textContent')
+            ig_user = comment.find_element_by_class_name('ZIAjV').get_attribute('textContent')
             comments_list.append(ig_comment)
             users_list.append(ig_user)
         comments_list = comments_list[1:]
